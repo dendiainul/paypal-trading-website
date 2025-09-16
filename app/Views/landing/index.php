@@ -92,7 +92,7 @@
                         </div>
                         <h5>Top Up PayPal</h5>
                         <p class="text-muted">Isi saldo PayPal Anda dengan mudah dan cepat. Rate terbaik dijamin!</p>
-                        <a href="#" class="btn btn-outline-primary">Order Sekarang</a>
+<a href="<?= base_url('order/buy-paypal') ?>" class="btn btn-outline-primary">Order Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
                         </div>
                         <h5>Jual Saldo PayPal</h5>
                         <p class="text-muted">Tukar saldo PayPal Anda menjadi Rupiah dengan rate yang menguntungkan.</p>
-                        <a href="#" class="btn btn-outline-success">Jual Sekarang</a>
+<a href="<?= base_url('order/sell-paypal') ?>" class="btn btn-outline-success">Jual Sekarang</a>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                         </div>
                         <h5>Jasa Bayar PayPal</h5>
                         <p class="text-muted">Kami bantu bayar pembelian online Anda yang memerlukan PayPal.</p>
-                        <a href="#" class="btn btn-outline-warning">Gunakan Jasa</a>
+<a href="<?= base_url('order/payment-service') ?>" class="btn btn-outline-warning">Gunakan Jasa</a>
                     </div>
                 </div>
             </div>

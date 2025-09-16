@@ -54,12 +54,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#layanan">Layanan</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#rate">Rate</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
-                </ul>
+<ul class="navbar-nav ms-auto">
+    <li class="nav-item"><a class="nav-link" href="<?= base_url('/') ?>">Home</a></li>
+    <li class="nav-item"><a class="nav-link" href="<?= base_url('order') ?>">Order</a></li>
+    <li class="nav-item"><a class="nav-link" href="<?= base_url('/') ?>#rate">Rate</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://wa.me/6282390840007" target="_blank">Kontak</a></li>
+</ul>
             </div>
         </div>
     </nav>
