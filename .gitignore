@@ -1,0 +1,30 @@
+# CodeIgniter 4
+/vendor/
+/builds/
+/writable/logs/
+/writable/cache/
+/writable/debugbar/
+/writable/uploads/
+/writable/session/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/
+
+# Database
+*.sqlite
+*.db
